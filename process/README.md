@@ -1,2 +1,2 @@
 # Process README
-Here is the process README file ☻
+Here are the processes ☻

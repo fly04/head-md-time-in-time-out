@@ -4,110 +4,110 @@
 Here are photographs of everything that made me think of time while going around on a saturday afternoon.
 
 <img
-  src="images/22-10-2022/20_minutes.jpg"
+  src="images/2022-10-22/20_minutes.jpg"
   alt="20 minutes"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/affiches.jpg"
+  src="images/2022-10-22/affiches.jpg"
   alt="affiches"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/affiches2.jpg"
+  src="images/2022-10-22/affiches2.jpg"
   alt="affiches"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/chateau.jpg"
+  src="images/2022-10-22/chateau.jpg"
   alt="chateau"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/construction.jpg"
+  src="images/2022-10-22/construction.jpg"
   alt="construction"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/dos_d_ane.jpg"
+  src="images/2022-10-22/dos_d_ane.jpg"
   alt="dos d'âne"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/eglise.jpg"
+  src="images/2022-10-22/eglise.jpg"
   alt="eglise"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/fer_a_repasser.jpg"
+  src="images/2022-10-22/fer_a_repasser.jpg"
   alt="fer à repasser"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/feu_de_signalisation.jpg"
+  src="images/2022-10-22/feu_de_signalisation.jpg"
   alt="feu de signalisation"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/garantie.jpg"
+  src="images/2022-10-22/garantie.jpg"
   alt="garantie"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/horaires_bus.jpg"
+  src="images/2022-10-22/horaires_bus.jpg"
   alt="horaires de bus"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/horloge_cassee.jpg"
+  src="images/2022-10-22/horloge_cassee.jpg"
   alt="horloge cassée"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/horloge_duree.jpg"
+  src="images/2022-10-22/horloge_duree.jpg"
   alt="horloge durée"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/lessive.jpg"
+  src="images/2022-10-22/lessive.jpg"
   alt="lessive"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/machine_a_carte.jpg"
+  src="images/2022-10-22/machine_a_carte.jpg"
   alt="machine à carte"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/machine_a_laver.jpg"
+  src="images/2022-10-22/machine_a_laver.jpg"
   alt="machine à laver"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/panneau_30.jpg"
+  src="images/2022-10-22/panneau_30.jpg"
   alt="panneau 30"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/panneau_dates.jpg"
+  src="images/2022-10-22/panneau_dates.jpg"
   alt="panneau dates"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/panneau_horaires.jpg"
+  src="images/2022-10-22/panneau_horaires.jpg"
   alt="panneau horaires"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/panneau_saison.jpg"
+  src="images/2022-10-22/panneau_saison.jpg"
   alt="panneau saison"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/pates.jpg"
+  src="images/2022-10-22/pates.jpg"
   alt="pâtes"
   style="display: inline-block; margin: 0 auto; width: 200px">
   <img
-  src="images/22-10-2022/rondpoint.jpg"
+  src="images/2022-10-22/rondpoint.jpg"
   alt="rondpoint"
   style="display: inline-block; margin: 0 auto; width: 200px">
     <img
-  src="images/22-10-2022/rouille.jpg"
+  src="images/2022-10-22/rouille.jpg"
   alt="rouille"
   style="display: inline-block; margin: 0 auto; width: 200px">
     <img
-  src="images/22-10-2022/scooter.jpg"
+  src="images/2022-10-22/scooter.jpg"
   alt="scooter"
   style="display: inline-block; margin: 0 auto; width: 200px">
     <img
-  src="images/22-10-2022/bloc_note.jpg"
+  src="images/2022-10-22/bloc_note.jpg"
   alt="bloc notes"
   style="display: inline-block; margin: 0 auto; width: 200px">
 
 ## Phone time check
 Comparaison with Nathan :
 <img
-  src="images/25-10-2022/comparaison.jpg"
+  src="images/2022-10-25/comparaison.jpg"
   alt="comparaison"
   style="display: inline-block; margin: 0 auto;">
 

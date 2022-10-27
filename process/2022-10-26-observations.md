@@ -104,8 +104,6 @@ Here are photographs of everything that made me think of time while going around
   alt="bloc notes"
   style="display: inline-block; margin: 0 auto; width: 200px">
 
-
-
 ## Phone time check
 Comparaison with Nathan :
 <img

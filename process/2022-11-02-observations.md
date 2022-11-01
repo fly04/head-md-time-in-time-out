@@ -92,3 +92,26 @@
   src="images/2022-10-31/routine4.jpg"
   alt="routine4"
   style="display: inline-block; margin: 0 auto; width: 200px">
+
+  ## Midjourney
+
+  <img
+  src="images/2022-11-01/midjourney1.png"
+  alt="midjourney1"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+  <img
+  src="images/2022-11-01/midjourney2.png"
+  alt="midjourney2"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+  <img
+  src="images/2022-11-01/midjourney3.png"
+  alt="midjourney3"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+  <img
+  src="images/2022-11-01/midjourney4.png"
+  alt="midjourney4"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+  <img
+  src="images/2022-11-01/midjourney5.png"
+  alt="midjourney5"
+  style="display: inline-block; margin: 0 auto; width: 200px">

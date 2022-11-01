@@ -2,6 +2,6 @@
 
 Here are the pitches ☺
 
-- [2022-10-20](./2022-10-20-pitch.md)
-- [2022-10-27](./2022-10-27-pitch.md)
-- [2022-11-02](./2022-11-02-pitch.md)
+- [2022-10-20](./2022-10-20-pitch.md) : Quantum Collation Ball
+- [2022-10-27](./2022-10-27-pitch.md) : Between recurring situations, routine and time loops
+- [2022-11-02](./2022-11-02-pitch.md) : A double edged sword

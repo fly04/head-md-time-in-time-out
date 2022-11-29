@@ -1,5 +1,5 @@
 # Time In Time Out
-Here are things !
+Here's some stuff!
 
 - [Processes](./process/README.md)
 - [Pitches](./pitches/README.md)

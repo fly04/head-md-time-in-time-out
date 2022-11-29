@@ -1,5 +1,5 @@
-# Prototypes
-Here are the prototypes ☼
+# 🎮 Prototypes
+Here are the prototypes!
 
 ## Twine
 

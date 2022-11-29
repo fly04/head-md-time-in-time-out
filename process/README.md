@@ -1,5 +1,5 @@
-# Process README
-Here are the processes ☻
+# ⚙️ Processes
+Here are the processes!
 
 ## Observations
 

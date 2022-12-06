@@ -24,7 +24,6 @@
   src="images/2022-12-06/sketch_04.jpg"
   alt="sketch"
   style="display: inline-block; margin: 0 auto; width: 200px">
-
   <img
   src="images/2022-12-06/proto_01-1.jpg"
   alt="proto"

@@ -7,6 +7,10 @@ Here are the processes!
 - [2022-10-27](2022-10-27-observations.md)
 - [2022-11-02](2022-11-02-observations.md)
 
-## Shapes research
+## It and I
 
-- [22-12-06](22-12-06-shapes-research.md)
+### Concept research
+- [2022-12-04](2022-12-04-concept-research.md)
+
+### Object research
+- [2022-12-06](2022-12-06-object-research.md)

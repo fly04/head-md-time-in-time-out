@@ -6,7 +6,8 @@
  Input → **accelerometer + gyroscope** (MPU-9250) for gesture recognition
 
  Output → **vibration motors** for haptic feedback (anticipatory or reactive behaviors)
- Secondary output → **LEDs** for visual feedback (global state)
+
+ Secondary output (?) → **LEDs** for visual feedback (global state)
 
 ### Shape
 

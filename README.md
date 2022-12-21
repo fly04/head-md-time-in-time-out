@@ -7,3 +7,8 @@ Here's some stuff!
 
 Here's the latest pitch where is all the related stuff :
 - [It and I](/pitches/2022-11-28-pitch.md)
+
+
+To myself :
+- add pictures of electronics prototype
+- add pictures of object prototype

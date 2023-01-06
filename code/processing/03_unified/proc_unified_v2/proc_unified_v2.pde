@@ -132,9 +132,9 @@ void oscEvent(OscMessage theOscMessage) {
     println("idle");
     myPort.write(0);
   }
-  if (theOscMessage.checkAddrPattern("/circle")==true) {
+  if (theOscMessage.checkAddrPattern("/turn")==true) {
     myPort.write(1);
-    println("circle");
+    println("turn");
   }
   if (theOscMessage.checkAddrPattern("/shake")==true) {
     myPort.write(2);

@@ -84,3 +84,32 @@
   alt="proto"
   style="display: inline-block; margin: 0 auto; width: 200px">
   
+  ## 3D Models
+  <img
+  src="images/2023-01-06/shape_01.JPG"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 400px">
+    <img
+  src="images/2023-01-06/shape_02.JPG"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 400px">
+    <img
+  src="images/2023-01-06/shape_04.JPG"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 400px">
+    <img
+  src="images/2023-01-06/shape_05.JPG"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 400px">
+    <img
+  src="images/2023-01-06/shape_06.JPG"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 400px">
+    <img
+  src="images/2023-01-06/shape_07.JPG"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 400px">
+  <img
+  src="images/2023-01-06/printed_01.jpg"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 400px">

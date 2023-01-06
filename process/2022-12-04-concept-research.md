@@ -87,7 +87,6 @@
 - Se relaxer/méditer
 - Cuisiner
 
-(todo: add more things and order/filter)
 
 ## Emotions
 

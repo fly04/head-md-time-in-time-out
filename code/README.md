@@ -9,6 +9,6 @@ The idea :
 
 Latest stuff :
 - [Arduino: vibration patterns](../code/arduino/01_vibrationPatterns/)
-- [Arduino: input + gesture recognition + output](../code/arduino/03_GY521_gestureRecognition/)
+- [Arduino: input + gesture recognition + output](../code/arduino/04_MPU6050_gestureRecognition/)
 - [Processing: input + output](../code/processing/03_unified/)
-- [Wekinator](../code/wekinator/)
+- [Wekinator](../code/wekinator/02_gestures_v2/)

@@ -34,14 +34,6 @@ void patternHappy() {
 }
 
 void patternFear() {
-  // analogWrite(VIBRATOR, POW_HIGH);
-  // delay(100);
-
-  // analogWrite(VIBRATOR, POW_LOW);
-  // delay(750);
-
-  // analogWrite(VIBRATOR, 0);
-
   analogWrite(VIBRATOR, POW_HIGH);
   delay(random(100, 750));
 

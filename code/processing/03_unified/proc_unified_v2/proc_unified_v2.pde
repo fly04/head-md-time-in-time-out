@@ -132,14 +132,23 @@ void oscEvent(OscMessage theOscMessage) {
     println("idle");
     myPort.write(0);
   }
-  if (theOscMessage.checkAddrPattern("/turn")==true) {
+  if (theOscMessage.checkAddrPattern("/hi")==true) {
     myPort.write(1);
-    println("turn");
+    println("hi");
   }
-  if (theOscMessage.checkAddrPattern("/shake")==true) {
+  if (theOscMessage.checkAddrPattern("/walk")==true) {
     myPort.write(2);
-    println("shake");
-  } else {
+    println("walk");
+  }
+  if (theOscMessage.checkAddrPattern("/pc")==true) {
+    myPort.write(3);
+    println("pc");
+  }
+  if (theOscMessage.checkAddrPattern("/reverse")==true) {
+    myPort.write(4);
+    println("reverse");
+  }
+  else {
     return;
   }
 }

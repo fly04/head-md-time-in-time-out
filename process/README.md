@@ -8,9 +8,4 @@ Here are the processes!
 - [2022-11-02](2022-11-02-observations.md)
 
 ## It and I
-
-### Concept research
-- [2022-12-04](2022-12-04-concept-research.md)
-
-### Object research
-- [2022-12-06](2022-12-06-object-research.md)
+Everything related to It and I is [here](../pitches/2022-11-28-pitch.md)

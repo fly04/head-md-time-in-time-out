@@ -38,3 +38,17 @@ Components used :
   src="./2023-01-06/proto_elec_02-2.jpg"
   alt="proto"
   style="display: inline-block; margin: 0 auto; width: 250px">
+
+## Fourth prototype
+**Goal : test the input and output using gesture recognition instead of fake logic**
+
+Components used :
+- Arudino Uno
+- GY-521 accelerometer + gyroscope
+- 1 vibration motor
+- 1 LED
+
+<img
+  src="./2023-01-11/proto_elec_03.png"
+  alt="proto"
+  style="display: inline-block; margin: 0 auto; width: 500px">

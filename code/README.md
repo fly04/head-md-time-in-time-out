@@ -8,6 +8,6 @@ The idea :
 5. Arduino do stuff (vibration + light)
 
 Latest stuff :
-- [Arduino: input + gesture recognition + output + vibration patterns](../code/arduino/04_MPU6050_gestureRecognition/)
+- [Arduino: input + internal logic + output](../code/arduino/04_MPU6050_gestureRecognition/)
 - [Processing: input + output](../code/processing/03_unified/)
-- [Wekinator](../code/wekinator/03_gestures_v3/)
+- [Wekinator: gesture recognition](../code/wekinator/03_gestures_v3/)

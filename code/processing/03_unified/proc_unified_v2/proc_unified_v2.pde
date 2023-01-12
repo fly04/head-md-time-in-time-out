@@ -148,7 +148,6 @@ void oscEvent(OscMessage theOscMessage) {
     myPort.write(4);
     println("reverse");
   }
-  else {
-    return;
-  }
+  
+  //if()
 }

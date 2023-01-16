@@ -1,4 +1,6 @@
 # Object prototyping
+*[< **It and I** pitch](../../pitches/2022-11-28-pitch.md)*
+
 
 ## First 3D prototype
 

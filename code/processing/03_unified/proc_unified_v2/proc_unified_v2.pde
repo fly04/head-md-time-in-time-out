@@ -4,6 +4,9 @@ import java.util.*;
 import oscP5.*;
 import netP5.*;
 
+boolean isOn = false;
+int timer;
+
 //Objects for display:
 ControlP5 cp5;
 PFont fBig;
@@ -26,6 +29,8 @@ String featureString = "";
 void setup() {
   size(300, 250);
   frameRate(100);
+
+  timer = millis();
 
   //Set up display
   cp5 = new ControlP5(this);
@@ -87,8 +92,30 @@ void draw() {
   text("Feature values:", 10, 200);
   text(featureString, 25, 220);
 
+  //text("Auto in: " + (millis()/1000 % 15), 10, 240);
+  text("Status: " + isOn, 10, 230);
+
   if (gettingData) {
     getData();
+  }
+
+  if (keyPressed) {
+    if (key == 'o' || key == 'O' && !isOn) {
+      isOn = true;
+      println("ON");
+    } else if (key == 'n' || key == 'N' && isOn) {
+      isOn = false;
+      println("OFF");
+    }
+  }
+
+
+  if (millis() > timer + 5000) {
+    timer = millis();
+    if (isOn) {
+      myPort.write(10);
+      println("X!");
+    }
   }
 }
 
@@ -128,26 +155,19 @@ void sendFeatures(String[] s) {
 
 //This is called automatically when OSC message is received
 void oscEvent(OscMessage theOscMessage) {
-  if (theOscMessage.checkAddrPattern("/idle")==true) {
-    println("idle");
+
+  if (isOn) {
+    if (theOscMessage.checkAddrPattern("/idle")==true) {
+      myPort.write(0);
+      //println("idle");
+    } else if (theOscMessage.checkAddrPattern("/walk")==true) {
+      myPort.write(1);
+      //println("walk");
+    } else if (theOscMessage.checkAddrPattern("/pc")==true) {
+      myPort.write(2);
+      //println("pc");
+    }
+  } else {
     myPort.write(0);
   }
-  if (theOscMessage.checkAddrPattern("/hi")==true) {
-    myPort.write(1);
-    println("hi");
-  }
-  if (theOscMessage.checkAddrPattern("/walk")==true) {
-    myPort.write(2);
-    println("walk");
-  }
-  if (theOscMessage.checkAddrPattern("/pc")==true) {
-    myPort.write(3);
-    println("pc");
-  }
-  if (theOscMessage.checkAddrPattern("/reverse")==true) {
-    myPort.write(4);
-    println("reverse");
-  }
-  
-  //if()
 }

@@ -10,15 +10,20 @@ Adafruit_MPU6050 mpu;
 
 // Vibration patterns
 enum PatternState { NONE,
-                    POKE,
                     ANGRY,
                     HAPPY,
-                    FEAR,
-                    SAD,
-                    ANXIETY };
+                    ANXIETY
+                    // ,
+                    // POKE,
+                    // FEAR,
+                    // SAD,
+                    // ANXIETY
+};
 
 // Vibration state
 PatternState patternState = NONE;
+// PatternState lastState = NONE;
+
 
 // Vibration values
 #define POW_LOW 100
@@ -29,6 +34,13 @@ int lightValue = 5;
 int minLight = 0;
 int maxLight = 10;
 
+unsigned long enterStateTimer = 0;
+boolean canChange = true;
+
+
+int happyValue = 50;
+bool happyRising = true;
+
 void setup() {
   // Initialize Serial communication
   Serial.begin(9600);
@@ -38,7 +50,7 @@ void setup() {
 
   // Init IMU sensor
   if (!mpu.begin()) {
-    Serial.println("Failed to initialize IMU!");
+    // Serial.println("Failed to initialize IMU!");
     while (1) {
       delay(10);
     }
@@ -55,9 +67,12 @@ void loop() {
   handleGesture();
   playPattern();
 
-  // Light
+  // debug();
+
   int mappedLight = map(lightValue, 0, 10, 0, 255);
   analogWrite(LED, mappedLight);
+
+  delay(100);
 }
 
 void sendGyroData() {
@@ -85,52 +100,60 @@ void sendGyroData() {
 }
 
 void handleGesture() {
-  while(Serial.available()) {
+  while (Serial.available()) {
     int value = Serial.read();
 
-    switch (value) {
-      case 0:
-        patternState = NONE;
-        break;
-      case 1:
-        patternState = ANGRY;
-        lessLight();
-        break;
-      case 2:
-        patternState = HAPPY;
-        moreLight();
-        break;
-      case 3:
-        patternState = POKE;
-        break;
-      case 4:
-        patternState = FEAR;
-        break;
-      default:
-        patternState = NONE;
-        break;
+    if (!canChange) return;
+
+    if (value != 0) {
+      enterStateTimer = millis();
+      canChange = false;
     }
 
+    if (value == 0) {
+      // lastState = NONE;
+
+    } else if (value == 1 || value == 'h') {
+      // if(lastState == HAPPY) return;
+      happyValue = 50;
+      happyRising = true;
+      patternState = HAPPY;
+      moreLight();
+
+    } else if (value == 2 || value == 'a') {
+      // if(lastState == ANGRY) return;
+      patternState = ANGRY;
+      lessLight();
+    } else if (value == 10 || value == 'x') {
+      patternState = ANXIETY;
+    }
   }
 }
 
-void lessLight() {
-  if(lightValue == minLight) return;
-  lightValue--;
-}
 
-void moreLight() {
-  if(lightValue == maxLight) return;
-  lightValue++;
-}
 
 void playPattern() {
+
+  if (patternState == ANGRY && millis() > enterStateTimer + 3000) {
+    canChange = true;
+    patternState = NONE;
+    // lastState = ANGRY;
+  }
+
+  if (patternState == HAPPY && millis() > enterStateTimer + 7000) {
+    canChange = true;
+    patternState = NONE;
+    // lastState = HAPPY;
+  }
+
+  if (patternState == ANXIETY && millis() > enterStateTimer + 3000) {
+    canChange = true;
+    patternState = NONE;
+  }
+
   switch (patternState) {
     case NONE:
       patternNone();
-      break;
-    case POKE:
-      patternPoke();
       break;
     case ANGRY:
       patternAngry();
@@ -138,14 +161,36 @@ void playPattern() {
     case HAPPY:
       patternHappy();
       break;
-    case FEAR:
-      patternFear();  //rapide, exicté
-      break;
-    case SAD:  //endormi
-      patternSad();
-      break;
     case ANXIETY:
       patternAnxiety();
       break;
   }
+}
+
+void lessLight() {
+  if (lightValue == minLight) return;
+  lightValue--;
+}
+
+void moreLight() {
+  if (lightValue == maxLight) return;
+  lightValue++;
+}
+
+void debug() {
+  if (patternState == NONE) {
+    Serial.print("NONE!");
+    patternNone();
+
+  } else if (patternState == ANGRY) {
+    Serial.print("ANGRY!");
+    patternAngry();
+
+  } else if (patternState == HAPPY) {
+    Serial.print("HAPPY!");
+    patternHappy();
+  }
+
+  Serial.print(" - " + String(patternState) + " - canChange: " + canChange + " - timer:" + enterStateTimer);
+  Serial.println();
 }

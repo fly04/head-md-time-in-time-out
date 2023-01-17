@@ -21359,8 +21359,8 @@
     <minSizeInExamples>6</minSizeInExamples>
     <maxSizeInExamples>70</maxSizeInExamples>
     <minSizeInDownsampledExamples>1</minSizeInDownsampledExamples>
-    <maxSizeInDownsampledExamples>16</maxSizeInDownsampledExamples>
-    <maxLengthToRetainDuringRun>16</maxLengthToRetainDuringRun>
+    <maxSizeInDownsampledExamples>10</maxSizeInDownsampledExamples>
+    <maxLengthToRetainDuringRun>10</maxLengthToRetainDuringRun>
     <numTotalExamples>69</numTotalExamples>
     <numInputs>6</numInputs>
     <downsampleFactor>7</downsampleFactor>
@@ -21378,6 +21378,12 @@
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[5]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[6]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[7]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[8]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[9]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[10]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[11]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[12]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[13]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[2]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[3]"/>
@@ -21386,6 +21392,22 @@
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[6]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[7]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[8]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[9]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[10]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[11]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[12]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[13]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[14]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[15]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[16]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[17]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[18]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[19]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[20]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[21]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[22]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[23]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[24]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[2]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[3]"/>
@@ -21396,6 +21418,10 @@
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[8]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[9]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[10]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[11]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[12]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[13]"/>
+        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[14]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[4]/wekimini.learning.dtw.DtwExample"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[4]/wekimini.learning.dtw.DtwExample[2]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[4]/wekimini.learning.dtw.DtwExample[3]"/>
@@ -21414,32 +21440,6 @@
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[6]/wekimini.learning.dtw.DtwExample[4]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[6]/wekimini.learning.dtw.DtwExample[5]"/>
         <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[6]/wekimini.learning.dtw.DtwExample[6]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[8]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[9]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[10]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[11]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[12]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list/wekimini.learning.dtw.DtwExample[13]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[9]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[10]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[11]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[12]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[13]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[14]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[15]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[16]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[17]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[18]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[19]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[20]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[21]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[22]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[23]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[2]/wekimini.learning.dtw.DtwExample[24]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[11]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[12]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[13]"/>
-        <wekimini.learning.dtw.DtwExample reference="../../../allExamples/linked-list[3]/wekimini.learning.dtw.DtwExample[14]"/>
       </java.util.ArrayDeque>
     </examplesInOrder>
   </data>

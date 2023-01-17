@@ -11,17 +11,15 @@ void patternPoke() {
 
 void patternAngry() {
   analogWrite(VIBRATOR, POW_HIGH);
-  delay(500);
+  delay(random(500, 750));
   analogWrite(VIBRATOR, 0);
   delay(100);
 }
 
-int happyValue = 0;
-bool happyRising = true;
 void patternHappy() {
 
   if (happyRising) {
-    happyValue += 1;
+    happyValue += 8;
     happyValue %= 256;
     if (happyValue >= 255) happyRising = false;
   } else {
@@ -53,7 +51,7 @@ void patternSad() {
 
 void patternAnxiety() {
   analogWrite(VIBRATOR, POW_LOW);
-  delay(100);
+  delay(200);
 
   analogWrite(VIBRATOR, 0);
   delay(100);
